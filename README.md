@@ -2,7 +2,8 @@
 
 A React Native app with TypeScript, MobX persistence, Formik + Yup validation, and React Native Linear Gradient buttons.
 
-**Demo:** [View Demo](https://drive.google.com/file/d/1lKCtvOlnWQh8vZfeKCDwTjjPoD9Sajd2/view?usp=drive_link)
+**Demo:** [View IOS Demo](https://drive.google.com/file/d/1lKCtvOlnWQh8vZfeKCDwTjjPoD9Sajd2/view?usp=drive_link)
+[View Android Demo](https://drive.google.com/file/d/1pEHtjwPRnoxBgSR2fD3Vnq6H63R0v-8k/view?usp=drive_link)
 
 ## Setup Instructions
 
@@ -22,9 +23,14 @@ cd ..
 # 4. Start Metro
 npm start        # or yarn start
 
-# 6. Run the app on iOS
+# 5. Run the app on iOS
 npm run ios      # or yarn ios
 
-# 5. Run the app on Android
+# 6. Run the app on Android
 npm run android  # or yarn android
+
+# clean the project on android
+cd ./android
+./gradlew clean 
+
 
