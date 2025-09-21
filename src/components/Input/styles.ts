@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { COLORS, Fonts, Spacing } from '../../constants';
+import { Borders, COLORS, Fonts, Spacing } from '../../constants';
 
 export const styles = StyleSheet.create({
     inputContainer: {
@@ -17,8 +17,8 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         paddingVertical: 10,
         paddingHorizontal: Spacing.md,
-        borderRadius: 12,
-        borderWidth: 1,
+        borderRadius: Borders.radius.lg,
+        borderWidth: Borders.width.normal,
         width: '100%'
     },
     inputWrapperInactive: {
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 12,
         paddingVertical: 6,
         backgroundColor: COLORS.primary,
-        borderRadius: 8,
+        borderRadius: Borders.radius.md,
     },
     maxButtonText: {
         color: COLORS.white,

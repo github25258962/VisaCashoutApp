@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { COLORS, Fonts } from "../../constants";
+import { Borders, COLORS, Fonts } from "../../constants";
 
 export default StyleSheet.create({
     cardWrapper: {
@@ -26,7 +26,7 @@ export default StyleSheet.create({
         left: 0,
         right: 0,
         bottom: 0,
-        borderRadius: 16,
+        borderRadius: Borders.radius.xl,
         backgroundColor: COLORS.visaCard,
         justifyContent: "center",
         alignItems: "center",
@@ -44,7 +44,7 @@ export default StyleSheet.create({
         ...StyleSheet.absoluteFillObject,
         backgroundColor: COLORS.black,
         opacity: 0.6,
-        borderRadius: 16,
+        borderRadius: Borders.radius.xl,
         zIndex: 2,
         pointerEvents: "none",
     },

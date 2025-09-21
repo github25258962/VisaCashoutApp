@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { Borders } from "../../../constants";
 
 export default StyleSheet.create({
     backdrop: {
@@ -10,7 +11,7 @@ export default StyleSheet.create({
     card: {
         width: "85%",
         backgroundColor: "white",
-        borderRadius: 12,
+        borderRadius: Borders.radius.lg,
         padding: 20
     },
     title: { fontSize: 18, fontWeight: "700", marginBottom: 8 },

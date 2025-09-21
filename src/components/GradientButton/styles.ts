@@ -1,21 +1,21 @@
 import { StyleSheet } from 'react-native';
 import { COLORS } from '../../constants/colors';
-import { Fonts, Spacing } from '../../constants';
+import { Borders, Fonts, Spacing } from '../../constants';
 
 export const styles = StyleSheet.create({
     pressable: {
         width: '100%',
-        borderWidth: 1,
+        borderWidth: Borders.width.normal,
         borderColor: COLORS.borderActtiveGradientStart,
         borderBottomColor: COLORS.borderActiveGradientEnd,
         borderTopWidth: 1,
-        borderRadius: 12,
+        borderRadius: Borders.radius.lg,
     },
     disabledPressable: {
         opacity: 1,
-        borderWidth: 1,
+        borderWidth: Borders.width.normal,
         borderColor: COLORS.disabledBorder,
-        borderRadius: 12
+        borderRadius: Borders.radius.lg
     },
     container: {
         position: 'relative',
@@ -27,14 +27,14 @@ export const styles = StyleSheet.create({
         right: 0,
         height: 44,
         backgroundColor: COLORS.shadowRed,
-        borderRadius: 12,
+        borderRadius: Borders.radius.lg,
     },
     disabledShadow: {
         backgroundColor: COLORS.disabledBorder,
     },
     gradient: {
         height: 44,
-        borderRadius: 12,
+        borderRadius: Borders.radius.lg,
         alignItems: 'center',
         justifyContent: 'center',
         position: 'relative',
