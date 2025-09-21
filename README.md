@@ -22,8 +22,9 @@ cd ..
 # 4. Start Metro
 npm start        # or yarn start
 
+# 6. Run the app on iOS
+npm run ios      # or yarn ios
+
 # 5. Run the app on Android
 npm run android  # or yarn android
 
-# 6. Run the app on iOS
-npm run ios      # or yarn ios
